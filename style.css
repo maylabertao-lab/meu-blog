@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f8f2;
+    color: #333;
+}
+
+
+/* MENU */
+
+header {
+    background-color: #2e7d32;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 8%;
+}
+
+.logo h1 {
+    font-size: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #c8e6c9;
+}
+
+
+/* INÍCIO */
+
+.inicio {
+    min-height: 500px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 60px 10%;
+}
+
+.inicio-texto {
+    max-width: 550px;
+}
+
+.inicio h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #2e7d32;
+}
+
+.inicio p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.planeta {
+    font-size: 180px;
+}
+
+.botao {
+    background-color: #2e7d32;
+    color: white;
+
+    text-decoration: none;
+
+    padding: 15px 25px;
+    border-radius: 8px;
+
+    font-weight: bold;
+}
+
+.botao:hover {
+    background-color: #1b5e20;
+}
+
+
+/* SOBRE */
+
+.sobre {
+    background-color: white;
+
+    text-align: center;
+
+    padding: 70px 20%;
+}
+
+.sobre h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #2e7d32;
+}
+
+.sobre p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+/* POSTS */
+
+.posts {
+    padding: 70px 10%;
+}
+
+.posts > h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+
+    color: #2e7d32;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.card {
+    background-color: white;
+
+    width: 300px;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    text-align: center;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.icone {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    margin-bottom: 15px;
+    color: #2e7d32;
+}
+
+.card p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.card button {
+    background-color: #2e7d32;
+    color: white;
+
+    border: none;
+
+    padding: 10px 20px;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #1b5e20;
+}
+
+
+/* DICAS */
+
+.dicas {
+    background-color: #c8e6c9;
+
+    text-align: center;
+
+    padding: 70px 10%;
+}
+
+.dicas h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+
+    color: #1b5e20;
+}
+
+.lista-dicas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 20px;
+}
+
+.dica {
+    background-color: white;
+
+    padding: 20px 30px;
+
+    border-radius: 10px;
+
+    font-weight: bold;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* RODAPÉ */
+
+footer {
+    background-color: #1b5e20;
+    color: white;
+
+    text-align: center;
+
+    padding: 40px 10%;
+}
+
+footer h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+.integrantes {
+    margin-top: 20px;
+    font-weight: bold;
+}
